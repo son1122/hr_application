@@ -16,18 +16,9 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3d40746-83e8-415f-9319-7ca2496a70c4" name="Changes" comment="add more tool">
+    <list default="true" id="b3d40746-83e8-415f-9319-7ca2496a70c4" name="Changes" comment="config auto restart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/.idea/i18nSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/.idea/pdf.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/CODEOWNERS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +64,13 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "io.unthrottled.amii.config.ui.PluginSettingsUI",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="ReactDesignerToolWindowState">
@@ -189,7 +185,7 @@
       <workItem from="1683555754820" duration="92000" />
       <workItem from="1683556090231" duration="14512000" />
       <workItem from="1683618254075" duration="7537000" />
-      <workItem from="1683688867903" duration="21682000" />
+      <workItem from="1683688867903" duration="22767000" />
     </task>
     <task id="LOCAL-00001" summary="init react">
       <created>1683558532600</created>
@@ -261,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683724466738</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="config auto restart">
+      <created>1683735513351</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683735513351</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +276,8 @@
     <MESSAGE value="add i18n" />
     <MESSAGE value="add layout" />
     <MESSAGE value="add more tool" />
-    <option name="LAST_COMMIT_MESSAGE" value="add more tool" />
+    <MESSAGE value="config auto restart" />
+    <option name="LAST_COMMIT_MESSAGE" value="config auto restart" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
