@@ -1,0 +1,15 @@
+{
+  "Human Resource Application": "Human Resource Application",
+  "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nisi perferendis repellat consequatur commodi esse, delectus, cum in, ab illo maxime similique maiores culpa exercitationem ullam mollitia, ad ratione inventore?",
+  "header": "Example of React i18next",
+  "lang_en": "English",
+  "lang_text": "Please select language : ",
+  "lang_th": "Thai",
+  "post": "Post :",
+  "read_more": "Read more",
+  "source_code": "Source Code :",
+  "subtitle": "React i18n with i18next Tutorial",
+  "test": "test",
+  "title": "React i18n",
+  "welcome_message": "Hello, {{name}}. Welcome to {{website}}!"
+}

@@ -1,0 +1,91 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api_gateway
+
+  api_gateway:
+    build: ./api_gateway
+    ports:
+      - "4000:4000"
+    depends_on:
+      - idp_service
+      - evaluation_service
+      - rabbitmq
+
+  idp_service:
+    build: ./idp_service
+    ports:
+      - "5000:5000"
+    depends_on:
+      - idp_db
+
+  evaluation_service:
+    build: ./evaluation_service
+    ports:
+      - "6000:6000"
+    depends_on:
+      - evaluation_db
+      - rabbitmq
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    environment:
+      RABBITMQ_ERLANG_COOKIE: "SWQOKODSQALRPCLNMEQG"
+      RABBITMQ_DEFAULT_USER: "rabbitmq"
+      RABBITMQ_DEFAULT_PASS: "rabbitmq"
+      RABBITMQ_DEFAULT_VHOST: "/"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+
+  idp_db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: idp_user
+      POSTGRES_PASSWORD: idp_password
+      POSTGRES_DB: idp_db
+    volumes:
+      - idp_db_data:/var/lib/postgresql/data
+
+  evaluation_db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: evaluation_user
+      POSTGRES_PASSWORD: evaluation_password
+      POSTGRES_DB: evaluation_db
+    volumes:
+      - evaluation_db_data:/var/lib/postgresql/data
+
+  prometheus:
+    image: prom/prometheus:v2.28.1
+    volumes:
+      - ./prometheus:/etc/prometheus
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana:8.1.1
+    ports:
+      - "3001:3000"
+    depends_on:
+      - prometheus
+    volumes:
+      - grafana_data:/var/lib/grafana
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.25.0
+    environment:
+      COLLECTOR_ZIPKIN_HTTP_PORT: "9411"
+    ports:
+      - "16686:16686"
+      - "6831:6831/udp"
+
+volumes:
+  idp_db_data:
+  evaluation_db_data:
+  grafana_data:

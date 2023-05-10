@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectSettingsService">
+    <option name="localesDirectory" value="$PROJECT_DIR$/react/src/locale" />
+    <option name="folderStrategy" value="MODULARIZED_LOCALE" />
+    <option name="filePattern" value="*.json" />
+    <option name="defaultNamespace" value="trans" />
+    <option name="nestedKeys" value="false" />
+  </component>
+</project>

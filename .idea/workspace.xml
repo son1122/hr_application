@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="son1122" />
+    <option name="SERVER_URL" value="http://localhost:8111" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3d40746-83e8-415f-9319-7ca2496a70c4" name="Changes" comment="add layout">
+      <change afterPath="$PROJECT_DIR$/api_gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation_service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idp_service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_gateway" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation_service" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation_service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/component/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idp_service" beforeDir="false" afterPath="$PROJECT_DIR$/idp_service" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/idp_service" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2PVwGdqhVDiNshh5KPmc6mLVu5p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/asd1122/Desktop/dhipaya/hr_jetbrain/idp_service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/idp_service" />
+      <recent name="$PROJECT_DIR$/evaluation_service" />
+      <recent name="$PROJECT_DIR$/react/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/frontend/src/index.js" working-dir="$PROJECT_DIR$/frontend/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="YouTrackRemoteDebugType" factoryName="YouTrack Remote Debug" nameIsGenerated="true" port="443" rootFolder="youtrack-scripts" instanceFolder="scripts">
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="containerName" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="frontend/Dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="frontend/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/react/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Docker.frontend/Dockerfile: Compose Deployment" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="YouTrack Debug.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.frontend/Dockerfile: Compose Deployment" />
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpaceReviewFiltersPersistance">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;NeedsReview&quot;,
+    &quot;reviewer&quot;: {
+      &quot;id&quot;: &quot;1n4IXH0qf1SL&quot;,
+      &quot;fullName&quot;: &quot;wongsatorn norrasing&quot;
+    }
+  }
+}</component>
+  <component name="SpaceReviewProjectSettings">
+    <option name="selectedReviewProjectId" value="2bn80n4debUw" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SuitableConfigurationIdsCache">
+    <SERVER_URL values="" />
+    <FIRST_MONTH_REVISION values="" />
+    <SUITABLE_CONFIGURATIONS_IDS values="" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3d40746-83e8-415f-9319-7ca2496a70c4" name="Changes" comment="" />
+      <created>1683555462522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683555462522</updated>
+      <workItem from="1683555466299" duration="274000" />
+      <workItem from="1683555754820" duration="92000" />
+      <workItem from="1683556090231" duration="14512000" />
+      <workItem from="1683618254075" duration="7537000" />
+      <workItem from="1683688867903" duration="3874000" />
+    </task>
+    <task id="LOCAL-00001" summary="init react">
+      <created>1683558532600</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683558532600</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init react">
+      <created>1683558537977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683558537977</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init react">
+      <created>1683559569357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683559569357</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init react">
+      <created>1683559613772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683559613772</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init react">
+      <created>1683559645531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683559645531</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add i18n">
+      <created>1683621394152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683621394153</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add layout">
+      <created>1683621410250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683621410250</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init react" />
+    <MESSAGE value="add i18n" />
+    <MESSAGE value="add layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="add layout" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
