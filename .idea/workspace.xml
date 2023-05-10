@@ -16,13 +16,8 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3d40746-83e8-415f-9319-7ca2496a70c4" name="Changes" comment="add layout">
-      <change afterPath="$PROJECT_DIR$/alertmanager/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kompose" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logstash/logstash.conf" afterDir="false" />
+    <list default="true" id="b3d40746-83e8-415f-9319-7ca2496a70c4" name="Changes" comment="add more tool">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prometheus/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/prometheus.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +165,7 @@
       <workItem from="1683555754820" duration="92000" />
       <workItem from="1683556090231" duration="14512000" />
       <workItem from="1683618254075" duration="7537000" />
-      <workItem from="1683688867903" duration="10915000" />
+      <workItem from="1683688867903" duration="12543000" />
     </task>
     <task id="LOCAL-00001" summary="init react">
       <created>1683558532600</created>
@@ -221,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683621410250</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add more tool">
+      <created>1683704882723</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683704882724</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +234,8 @@
     <MESSAGE value="init react" />
     <MESSAGE value="add i18n" />
     <MESSAGE value="add layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="add layout" />
+    <MESSAGE value="add more tool" />
+    <option name="LAST_COMMIT_MESSAGE" value="add more tool" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
