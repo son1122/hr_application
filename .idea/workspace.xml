@@ -18,6 +18,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b3d40746-83e8-415f-9319-7ca2496a70c4" name="Changes" comment="add more tool">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/.idea/i18nSettings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/.idea/pdf.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdf/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +95,7 @@
       <recent name="$PROJECT_DIR$/react" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/frontend/src/index.js" working-dir="$PROJECT_DIR$/frontend/src">
       <method v="2" />
     </configuration>
@@ -100,9 +110,21 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
         <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
       </deployment>
       <method v="2" />
     </configuration>
@@ -124,6 +146,7 @@
     </configuration>
     <list>
       <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="Docker.frontend/Dockerfile: Compose Deployment" />
       <item itemvalue="Node.js.index.js" />
       <item itemvalue="npm.start" />
@@ -131,6 +154,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.frontend/Dockerfile: Compose Deployment" />
         <item itemvalue="Node.js.index.js" />
       </list>
@@ -165,7 +189,7 @@
       <workItem from="1683555754820" duration="92000" />
       <workItem from="1683556090231" duration="14512000" />
       <workItem from="1683618254075" duration="7537000" />
-      <workItem from="1683688867903" duration="13405000" />
+      <workItem from="1683688867903" duration="21682000" />
     </task>
     <task id="LOCAL-00001" summary="init react">
       <created>1683558532600</created>
@@ -230,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683710520452</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add more tool">
+      <created>1683724466738</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683724466738</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

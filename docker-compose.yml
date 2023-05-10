@@ -2,35 +2,56 @@ version: '3.8'
 
 services:
   frontend:
-    build: ./frontend
+    build:
+      context: ./frontend
+      args:
+        NODE_ENV: development
     ports:
       - "3000:3000"
     depends_on:
       - api_gateway
+    volumes:
+      - ./frontend:/app
 
   api_gateway:
-    build: ./api_gateway
+    build:
+      context: ./api_gateway
+      args:
+        NODE_ENV: development
     ports:
-      - "4000:4000"
+      - "3004:3004"
     depends_on:
       - idp_service
       - evaluation_service
       - rabbitmq
+    volumes:
+      - ./api_gateway:/app
 
   idp_service:
-    build: ./idp_service
+    build:
+      context: ./idp_service
+      args:
+        NODE_ENV: development
     ports:
-      - "3005:5000"
+      - "3005:3005"
     depends_on:
       - idp_db
+      - rabbitmq
+    volumes:
+      - ./idp_service:/app
 
   evaluation_service:
-    build: ./evaluation_service
+    build:
+      context: ./evaluation_service
+      args:
+        NODE_ENV: development
     ports:
-      - "3006:6000"
+      - "3006:3006"
     depends_on:
       - evaluation_db
       - rabbitmq
+    volumes:
+      - ./evaluation_service:/app
 
   rabbitmq:
     image: "rabbitmq:3-management"
