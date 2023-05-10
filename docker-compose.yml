@@ -20,14 +20,14 @@ services:
   idp_service:
     build: ./idp_service
     ports:
-      - "5000:5000"
+      - "3005:5000"
     depends_on:
       - idp_db
 
   evaluation_service:
     build: ./evaluation_service
     ports:
-      - "6000:6000"
+      - "3006:6000"
     depends_on:
       - evaluation_db
       - rabbitmq
@@ -84,8 +84,48 @@ services:
     ports:
       - "16686:16686"
       - "6831:6831/udp"
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.15.1
+    environment:
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    ports:
+      - '9200:9200'
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:7.15.1
+    volumes:
+      - ./logstash:/usr/share/logstash/pipeline
+    ports:
+      - '5002:5000'
+    depends_on:
+      - elasticsearch
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.15.1
+    ports:
+      - '5601:5601'
+    depends_on:
+      - elasticsearch
+
+  alertmanager:
+    image: prom/alertmanager:v0.22.2
+    volumes:
+      - ./alertmanager:/etc/alertmanager
+    command:
+      - '--config.file=/etc/alertmanager/config.yml'
+    ports:
+      - '9093:9093'
 
 volumes:
   idp_db_data:
   evaluation_db_data:
   grafana_data:
+  esdata:

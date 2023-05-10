@@ -17,15 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3d40746-83e8-415f-9319-7ca2496a70c4" name="Changes" comment="add layout">
-      <change afterPath="$PROJECT_DIR$/api_gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluation_service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idp_service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_gateway" beforeDir="false" afterPath="$PROJECT_DIR$/api_gateway" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluation_service" beforeDir="false" afterPath="$PROJECT_DIR$/evaluation_service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/component/main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/component/main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idp_service" beforeDir="false" afterPath="$PROJECT_DIR$/idp_service" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alertmanager/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kompose" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logstash/logstash.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prometheus/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/prometheus.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +36,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/idp_service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/asd1122/Desktop/dhipaya/hr_jetbrain/idp_service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -172,7 +170,7 @@
       <workItem from="1683555754820" duration="92000" />
       <workItem from="1683556090231" duration="14512000" />
       <workItem from="1683618254075" duration="7537000" />
-      <workItem from="1683688867903" duration="3874000" />
+      <workItem from="1683688867903" duration="10915000" />
     </task>
     <task id="LOCAL-00001" summary="init react">
       <created>1683558532600</created>
