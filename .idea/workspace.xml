@@ -16,11 +16,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3d40746-83e8-415f-9319-7ca2496a70c4" name="Changes" comment="config database">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="b3d40746-83e8-415f-9319-7ca2496a70c4" name="Changes" comment="config database" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +191,7 @@
       <workItem from="1683618254075" duration="7537000" />
       <workItem from="1683688867903" duration="35245000" />
       <workItem from="1683777876200" duration="3033000" />
-      <workItem from="1683837466362" duration="963000" />
+      <workItem from="1683837466362" duration="1122000" />
     </task>
     <task id="LOCAL-00001" summary="init react">
       <created>1683558532600</created>
@@ -281,11 +277,29 @@
       <option name="project" value="LOCAL" />
       <updated>1683736837552</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="config database">
+      <created>1683852603337</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683852603337</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
